@@ -65,7 +65,7 @@ ax.bar(cat_labels,counts_test,width=0.7,label='Test')
 ax.tick_params(axis='x', labelrotation=40)
 ax.set_ylabel('Counts',fontsize=18)
 ax.legend(prop={'size': 12})
-ax.savefig('histogram_test.png')
+fig.savefig('histogram_test.png')
 
 """# Task 2"""
 
@@ -963,4 +963,4 @@ ax.plot(epochs_list, accsb,color='orange',label='size = 128x128: test')
 
 #ax.set_yscale('log')
 ax.legend(loc='upper right',prop={'size': 12})
-ax.savefig('mlp_test.png')
+fig.savefig('mlp_test.png')
